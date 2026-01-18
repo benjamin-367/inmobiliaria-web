@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "titulo": "Terreno en Asunción Centro",
+    "ciudad": "Asunción",
+    "tipo": "terrenos",
+    "precio": 320000000,
+    "metrosCuadrados": 500,
+    "estado": "disponible",
+    "imagen": "img/terreno1.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Casa de Lujo en San Bernardino",
+    "ciudad": "San Bernardino",
+    "tipo": "casas-de-lujo",
+    "precio": 1250000000,
+    "habitaciones": 5,
+    "banos": 4,
+    "estado": "disponible",
+    "imagen": "img/casa-lujo1.JPG"
+  },
+  {
+    "id": 3,
+    "titulo": "Loteamiento en Luque",
+    "ciudad": "Luque",
+    "tipo": "loteamientos",
+    "precio": 295000000,
+    "metrosCuadrados": 350,
+    "estado": "reservado",
+    "imagen": "img/loteamiento1.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Casa Familiar en Fernando de la Mora",
+    "ciudad": "Fernando de la Mora",
+    "tipo": "casas",
+    "precio": 410000000,
+    "habitaciones": 4,
+    "banos": 3,
+    "estado": "disponible",
+    "imagen": "img/casa1.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Apartamento Moderno en Asunción",
+    "ciudad": "Asunción",
+    "tipo": "casas",
+    "precio": 780000000,
+    "habitaciones": 3,
+    "banos": 2,
+    "estado": "vendido",
+    "imagen": "img/apartamento1.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Villa de Lujo en Areguá",
+    "ciudad": "Areguá",
+    "tipo": "casas-de-lujo",
+    "precio": 980000000,
+    "habitaciones": 4,
+    "banos": 3,
+    "estado": "disponible",
+    "imagen": "img/villa-lujo1.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Terreno para Inversión en Ciudad del Este",
+    "ciudad": "Ciudad del Este",
+    "tipo": "terrenos",
+    "precio": 210000000,
+    "metrosCuadrados": 400,
+    "estado": "disponible",
+    "imagen": "img/terreno2.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "Loteamiento Premium en Encarnación",
+    "ciudad": "Encarnación",
+    "tipo": "loteamientos",
+    "precio": 1500000000,
+    "metrosCuadrados": 600,
+    "estado": "reservado",
+    "imagen": "img/loteamiento2.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "Casa Renovada en Lambaré",
+    "ciudad": "Lambaré",
+    "tipo": "casas",
+    "precio": 365000000,
+    "habitaciones": 2,
+    "banos": 2,
+    "estado": "disponible",
+    "imagen": "img/casa2.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "Terreno Cerca del Río en Pilar",
+    "ciudad": "Pilar",
+    "tipo": "terrenos",
+    "precio": 450000000,
+    "metrosCuadrados": 550,
+    "estado": "disponible",
+    "imagen": "img/terreno3.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "Terreno Central en Asunción",
+    "ciudad": "Asunción",
+    "tipo": "terrenos",
+    "precio": 280000000,
+    "metrosCuadrados": 300,
+    "estado": "disponible",
+    "imagen": "img/terreno4.jpg"
+  },
+  {
+    "id": 12,
+    "titulo": "Mansión de Lujo en San Lorenzo",
+    "ciudad": "San Lorenzo",
+    "tipo": "casas-de-lujo",
+    "precio": 1100000000,
+    "habitaciones": 4,
+    "banos": 3,
+    "estado": "disponible",
+    "imagen": "img/mansion1.jpg"
+  },
+  {
+    "id": 13,
+    "titulo": "Loteamiento en Mariano Roque Alonso",
+    "ciudad": "Mariano Roque Alonso",
+    "tipo": "loteamientos",
+    "precio": 185000000,
+    "metrosCuadrados": 280,
+    "estado": "vendido",
+    "imagen": "img/loteamiento3.jpg"
+  },
+  {
+    "id": 14,
+    "titulo": "Casa Independiente en Villa Elisa",
+    "ciudad": "Villa Elisa",
+    "tipo": "casas",
+    "precio": 520000000,
+    "habitaciones": 4,
+    "banos": 3,
+    "estado": "disponible",
+    "imagen": "img/casa3.jpg"
+  },
+  {
+    "id": 15,
+    "titulo": "Penthouse Exclusivo en Asunción",
+    "ciudad": "Asunción",
+    "tipo": "casas-de-lujo",
+    "precio": 950000000,
+    "habitaciones": 4,
+    "banos": 3,
+    "estado": "reservado",
+    "imagen": "img/penthouse1.jpg"
+  },
+  {
+    "id": 16,
+    "titulo": "Terreno para Construcción en Capiatá",
+    "ciudad": "Capiatá",
+    "tipo": "terrenos",
+    "precio": 340000000,
+    "metrosCuadrados": 450,
+    "estado": "disponible",
+    "imagen": "img/terreno5.jpg"
+  },
+  {
+    "id": 17,
+    "titulo": "Casa Nueva en Ñemby",
+    "ciudad": "Ñemby",
+    "tipo": "casas",
+    "precio": 480000000,
+    "habitaciones": 3,
+    "banos": 2,
+    "estado": "disponible",
+    "imagen": "img/casa4.jpg"
+  },
+  {
+    "id": 18,
+    "titulo": "Loteamiento en Limpio",
+    "ciudad": "Limpio",
+    "tipo": "loteamientos",
+    "precio": 310000000,
+    "metrosCuadrados": 320,
+    "estado": "disponible",
+    "imagen": "img/loteamiento4.jpg"
+  },
+  {
+    "id": 19,
+    "titulo": "Casa de Lujo Frente al Lago Ypacaraí",
+    "ciudad": "San Bernardino",
+    "tipo": "casas-de-lujo",
+    "precio": 1350000000,
+    "habitaciones": 5,
+    "banos": 4,
+    "estado": "disponible",
+    "imagen": "img/casa-lujo-lago.jpg"
+  },
+  {
+    "id": 20,
+    "titulo": "Terreno Residencial en Itauguá",
+    "ciudad": "Itauguá",
+    "tipo": "terrenos",
+    "precio": 195000000,
+    "metrosCuadrados": 380,
+    "estado": "disponible",
+    "imagen": "img/terreno6.jpg"
+  },
+  {
+    "id": 21,
+    "titulo": "Casa con Piscina en Luque",
+    "ciudad": "Luque",
+    "tipo": "casas",
+    "precio": 680000000,
+    "habitaciones": 4,
+    "banos": 3,
+    "estado": "disponible",
+    "imagen": "img/casa-piscina.jpg"
+  },
+  {
+    "id": 22,
+    "titulo": "Loteamiento en Pedro Juan Caballero",
+    "ciudad": "Pedro Juan Caballero",
+    "tipo": "loteamientos",
+    "precio": 420000000,
+    "metrosCuadrados": 500,
+    "estado": "disponible",
+    "imagen": "img/loteamiento5.jpg"
+  },
+  {
+    "id": 23,
+    "titulo": "Residencia de Lujo en Ypacarai",
+    "ciudad": "Ypacarai",
+    "tipo": "casas-de-lujo",
+    "precio": 1200000000,
+    "habitaciones": 6,
+    "banos": 5,
+    "estado": "disponible",
+    "imagen": "img/residencia-lujo.jpg"
+  },
+  {
+    "id": 24,
+    "titulo": "Terreno Comercial en Hernandarias",
+    "ciudad": "Hernandarias",
+    "tipo": "terrenos",
+    "precio": 380000000,
+    "metrosCuadrados": 600,
+    "estado": "disponible",
+    "imagen": "img/terreno-comercial.jpg"
+  }
+]

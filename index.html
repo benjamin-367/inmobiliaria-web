@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riske Inmobiliaria - Propiedades en Paraguay</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>Riske Inmobiliaria</h1>
+    <p>Encuentra tu próximo hogar o inversión en Paraguay</p>
+  </header>
+
+  <section class="filters">
+    <select id="filtro-tipo">
+      <option value="todos">Todos los tipos</option>
+      <option value="terrenos">Terrenos</option>
+      <option value="loteamientos">Loteamientos</option>
+      <option value="casas">Casas</option>
+      <option value="casas-de-lujo">Casas de Lujo</option>
+    </select>
+
+    <input
+      type="text"
+      id="buscador"
+      placeholder="Buscar por ciudad..."
+    />
+
+    <select id="orden-precio">
+      <option value="asc">Precio: menor a mayor</option>
+      <option value="desc">Precio: mayor a menor</option>
+    </select>
+  </section>
+
+  <main>
+    <div id="listado-propiedades" class="grid"></div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Riske Inmobiliaria - Paraguay</p>
+    <p style="margin-top: 0.5rem; opacity: 0.8;">
+      <a href="admin.html" style="color: #fff; text-decoration: underline;">Panel de Administración</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

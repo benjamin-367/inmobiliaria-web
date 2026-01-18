@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel de Administración - Riske Inmobiliaria</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <div class="admin-container">
+    <header class="admin-header">
+      <h1>🏠 Panel de Administración</h1>
+      <p>Gestiona las propiedades de Riske Inmobiliaria</p>
+      <div class="header-actions">
+        <a href="index.html" class="btn btn-secondary">← Volver al sitio</a>
+        <button id="exportar-btn" class="btn btn-primary">📥 Exportar JSON</button>
+        <button id="importar-btn" class="btn btn-primary">📤 Importar JSON</button>
+        <input type="file" id="importar-input" accept=".json" style="display: none;">
+      </div>
+    </header>
+
+    <div class="admin-content">
+      <!-- Formulario para agregar/editar -->
+      <section class="form-section">
+        <h2 id="form-title">➕ Agregar Nueva Propiedad</h2>
+        <form id="propiedad-form" class="propiedad-form">
+          <input type="hidden" id="propiedad-id" />
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="titulo">Título *</label>
+              <input type="text" id="titulo" required placeholder="Ej: Casa en Asunción Centro" />
+            </div>
+            <div class="form-group">
+              <label for="ciudad">Ciudad *</label>
+              <input type="text" id="ciudad" required placeholder="Ej: Asunción" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="tipo">Tipo de Propiedad *</label>
+              <select id="tipo" required>
+                <option value="">Selecciona un tipo</option>
+                <option value="terrenos">Terrenos</option>
+                <option value="loteamientos">Loteamientos</option>
+                <option value="casas">Casas</option>
+                <option value="casas-de-lujo">Casas de Lujo</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="estado">Estado *</label>
+              <select id="estado" required>
+                <option value="disponible">Disponible</option>
+                <option value="reservado">Reservado</option>
+                <option value="vendido">Vendido</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="precio">Precio (Guaraníes) *</label>
+              <input type="number" id="precio" required placeholder="Ej: 320000000" min="0" />
+            </div>
+            <div class="form-group">
+              <label for="imagen">Ruta de Imagen *</label>
+              <input type="text" id="imagen" required placeholder="img/terreno1.jpg" />
+              <small>Ejemplo: img/terreno1.jpg</small>
+            </div>
+          </div>
+
+          <div class="form-row" id="casas-fields">
+            <div class="form-group">
+              <label for="habitaciones">Habitaciones</label>
+              <input type="number" id="habitaciones" min="0" placeholder="0" />
+            </div>
+            <div class="form-group">
+              <label for="banos">Baños</label>
+              <input type="number" id="banos" min="0" placeholder="0" />
+            </div>
+          </div>
+
+          <div class="form-row" id="terrenos-fields" style="display: none;">
+            <div class="form-group">
+              <label for="metrosCuadrados">Metros Cuadrados</label>
+              <input type="number" id="metrosCuadrados" min="0" placeholder="Ej: 500" />
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-success" id="submit-btn">Guardar Propiedad</button>
+            <button type="button" class="btn btn-secondary" id="cancelar-btn" style="display: none;">Cancelar Edición</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Lista de propiedades -->
+      <section class="list-section">
+        <div class="list-header">
+          <h2>📋 Lista de Propiedades (<span id="total-count">0</span>)</h2>
+          <input type="text" id="buscar-admin" placeholder="🔍 Buscar propiedades..." class="search-input" />
+        </div>
+        <div id="propiedades-list" class="propiedades-list"></div>
+      </section>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
